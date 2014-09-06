@@ -2,7 +2,7 @@
 
 void print_numbers(int nr);
 
-int main(void)
+int main8(void)
 {
     printf("gimee a numbe bro:\n");
     int number;
