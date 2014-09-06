@@ -2,7 +2,7 @@
 
 #define SIZE 4
 
-int main(void)
+int maino(void)
 {
     short dates[SIZE];
     short * pti; //pointer
