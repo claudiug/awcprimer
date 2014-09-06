@@ -1,14 +1,6 @@
-//
-//  shoes2.c
-//  awcprimer
-//
-//  Created by claudiu on 9/6/14.
-//  Copyright (c) 2014 de.claudiu. All rights reserved.
-//
-
 #include <stdio.h>
 #define ADJUST 7.31;
-int main(void)
+int main2(void)
 {
     const double SCALE = 0.333;
     double shoe, foot;

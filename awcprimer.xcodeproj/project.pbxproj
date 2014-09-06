@@ -10,6 +10,9 @@
 		4CE9E46919BB14C000C5B440 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9E46819BB14C000C5B440 /* main.c */; };
 		4CE9E47119BB15BD00C5B440 /* shoes1.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9E47019BB15BD00C5B440 /* shoes1.c */; };
 		4CE9E47319BB170C00C5B440 /* shoes2.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9E47219BB170C00C5B440 /* shoes2.c */; };
+		4CE9E47519BB1B1200C5B440 /* sizeof.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9E47419BB1B1200C5B440 /* sizeof.c */; };
+		4CE9E47719BB1FF100C5B440 /* pound.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9E47619BB1FF100C5B440 /* pound.c */; };
+		4CE9E47919BB219600C5B440 /* running.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9E47819BB219600C5B440 /* running.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +32,9 @@
 		4CE9E46819BB14C000C5B440 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		4CE9E47019BB15BD00C5B440 /* shoes1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shoes1.c; sourceTree = "<group>"; };
 		4CE9E47219BB170C00C5B440 /* shoes2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shoes2.c; sourceTree = "<group>"; };
+		4CE9E47419BB1B1200C5B440 /* sizeof.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sizeof.c; sourceTree = "<group>"; };
+		4CE9E47619BB1FF100C5B440 /* pound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pound.c; sourceTree = "<group>"; };
+		4CE9E47819BB219600C5B440 /* running.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = running.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 			children = (
 				4CE9E47019BB15BD00C5B440 /* shoes1.c */,
 				4CE9E47219BB170C00C5B440 /* shoes2.c */,
+				4CE9E47419BB1B1200C5B440 /* sizeof.c */,
+				4CE9E47619BB1FF100C5B440 /* pound.c */,
+				4CE9E47819BB219600C5B440 /* running.c */,
 			);
 			name = ch5;
 			sourceTree = "<group>";
@@ -133,6 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CE9E47119BB15BD00C5B440 /* shoes1.c in Sources */,
+				4CE9E47519BB1B1200C5B440 /* sizeof.c in Sources */,
+				4CE9E47719BB1FF100C5B440 /* pound.c in Sources */,
+				4CE9E47919BB219600C5B440 /* running.c in Sources */,
 				4CE9E47319BB170C00C5B440 /* shoes2.c in Sources */,
 				4CE9E46919BB14C000C5B440 /* main.c in Sources */,
 			);
