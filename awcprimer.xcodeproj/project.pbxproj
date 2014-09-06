@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4CE9E46919BB14C000C5B440 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9E46819BB14C000C5B440 /* main.c */; };
+		4CE9E47119BB15BD00C5B440 /* shoes1.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9E47019BB15BD00C5B440 /* shoes1.c */; };
+		4CE9E47319BB170C00C5B440 /* shoes2.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9E47219BB170C00C5B440 /* shoes2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		4CE9E46519BB14C000C5B440 /* awcprimer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = awcprimer; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE9E46819BB14C000C5B440 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		4CE9E47019BB15BD00C5B440 /* shoes1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shoes1.c; sourceTree = "<group>"; };
+		4CE9E47219BB170C00C5B440 /* shoes2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shoes2.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,19 @@
 		4CE9E46719BB14C000C5B440 /* awcprimer */ = {
 			isa = PBXGroup;
 			children = (
+				4CE9E46F19BB157200C5B440 /* ch5 */,
 				4CE9E46819BB14C000C5B440 /* main.c */,
 			);
 			path = awcprimer;
+			sourceTree = "<group>";
+		};
+		4CE9E46F19BB157200C5B440 /* ch5 */ = {
+			isa = PBXGroup;
+			children = (
+				4CE9E47019BB15BD00C5B440 /* shoes1.c */,
+				4CE9E47219BB170C00C5B440 /* shoes2.c */,
+			);
+			name = ch5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE9E47119BB15BD00C5B440 /* shoes1.c in Sources */,
+				4CE9E47319BB170C00C5B440 /* shoes2.c in Sources */,
 				4CE9E46919BB14C000C5B440 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
