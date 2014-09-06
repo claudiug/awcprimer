@@ -3,13 +3,12 @@ const int S_PER_M = 60; //seconds in a minute
 const int S_PER_H = 3600; //second in a hour
 const double M_PER_KM = 0.62137;  //miles in a kilometer
 
-int main(void)
+int main9(void)
 {
     double distance_km, distance_miles;
     double rate;
     int min, sec;
     int time;
-    double time_for_mile;
     int milem, sec_for_mile;
     printf("convert all in metric range\n");
     printf("Enter how many km want to run\n");
@@ -25,5 +24,5 @@ int main(void)
     rate  = distance_miles / time * S_PER_H;
     milem = (double) time / distance_miles;
     sec_for_mile = (int) milem / S_PER_M;
-
+    return 0;
 }
